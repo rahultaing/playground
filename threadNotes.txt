@@ -1,7 +1,7 @@
 https://youtu.be/qkMk3k15PPA 
 
 Q. Why is parallelizing over threads better than parallelizing over processes?
-A. Threads are light weight which means: Time taken to create a thread is less than time taken to create a process. Communication between threads doesn't require IPC (interprocess communication) - which means most likely no system calls. Efficient context switching.
+A. Threads are light weight which means: Time taken to create a thread is less than time taken to create a process. Communication between threads doesn't require IPC (interprocess communication) - which means most likely no system calls. Efficient context switching because context of a thread is smaller than the context of a process, therefore less data need to be saved.
 
 
 Other information about threads:
